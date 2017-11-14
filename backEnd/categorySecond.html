@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分类-2</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" href="lib/nprogress/nprogress.css"/>
+    <link rel="stylesheet" href="css/admin.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+</head>
+<body>
+     <!-- 侧边栏 左 -->
+  <aside class="lt-aside">
+    <!-- 商标 brand -->
+    <div class="brand">
+      <a href="index.html">pg one</a>
+    </div>
+    <!-- 用户 user -->
+    <div class="user">
+      <a href="javascript:;">
+        <img src="./images/default.png" alt="">
+        <span>超级管理员</span>
+      </a>
+    </div>
+    <!-- 菜单 menu -->
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="userManage.html">
+            <i class="glyphicon glyphicon-user"></i> 用户管理
+          </a>
+        </li>
+        <li class="now">
+          <a href="javascript:;">
+            <i class="glyphicon glyphicon-list"></i> 分类管理
+          </a>
+          <div class="child">
+            <a class="now" href="categoryFirst.html">一级分类</a>
+            <a href="categorySecond.html">二级分类</a>
+          </div>
+        </li>
+        <li>
+          <a href="productManage.html">
+            <i class="glyphicon glyphicon-tags"></i> 商品管理
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+   <!-- 内容 -->
+   <section class="lt-section">
+    <!-- 顶部导航 -->
+    <nav class="top-nav">
+      <a data-menu href="javascript:;">
+        <i class="glyphicon glyphicon-align-justify"></i>
+      </a>
+      <a data-logout data-toggle="modal" href="#myModal">
+        <i class="glyphicon glyphicon-log-out"></i>
+      </a>
+    </nav>
+    <div class="lt-content">
+      <!-- 路径导航 -->
+      <ol class="breadcrumb">
+        <li>
+          <a href="#">管理系统</a>
+        </li>
+        <li class="active">分类管理</li>
+        <li class="active">二级管理</li>
+      </ol>
+  </section>
+
+  <!-- 引入jquery -->
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <!-- 引入bootstrap的插件 -->
+  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <!-- 引入进度条插件 -->
+  <script src="./lib/nprogress/nprogress.js"></script>
+  <!-- 引入admin文件 -->
+  <script src="./js/admin.js"></script>
+</body>
+</html>

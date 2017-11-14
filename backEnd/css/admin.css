@@ -1,0 +1,129 @@
+/* 左侧边栏的样式---S */
+
+.lt-aside {
+  width: 180px;
+  height: 100%;
+  background-color: #222d32;
+  position: absolute;
+}
+
+.lt-aside .brand {
+  width: 100%;
+  height: 50px;
+  background-color: #367fa9;
+}
+
+.lt-aside .brand a {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lt-aside .user {
+  padding: 30px 20px;
+}
+
+.lt-aside .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.lt-aside .user span {
+  color: #fff;
+  font-size: 12px;
+}
+
+.lt-aside .menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.lt-aside .menu ul li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #aaa;
+  border: 3px solid transparent;
+  padding-left: 30px;
+}
+
+.lt-aside .menu ul li a span {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.lt-aside .menu ul li .child a {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 50px;
+  font-size: 12px;
+}
+
+
+/* 左侧边栏的样式---E */
+
+
+/* 内容顶部导航样式---S */
+
+.lt-section {
+  padding-left: 180px;
+}
+.lt-section.menu {
+  padding-left: 0;
+}
+
+.lt-section .top-nav {
+  height: 50px;
+  background-color: #3c8dbc;
+  margin-bottom: 20px;
+}
+
+.lt-section .top-nav a {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 14px;
+}
+
+.lt-section .top-nav a:first-child {
+  margin-left: 15px;
+  float: left;
+}
+
+
+.lt-section .top-nav a:last-child {
+  margin-right: 15px;
+  float: right;
+}
+
+
+/* 内容顶部导航样式---E */
+
+.lt-section .lt-content {
+  width: 100%;
+}
+
+.lt-section .lt-canvas .picTable {
+  float: left;
+  width: 45%;
+  height: 400px;
+}
+
+.lt-section .lt-canvas .picTable:last-child {
+  margin-left: 10%;
+}
+
+/* 登录页面的样式 */
+.lt-login {
+  background-color: #222d32;
+  padding-top: 150px;
+}
